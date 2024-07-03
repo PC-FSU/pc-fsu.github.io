@@ -3,4 +3,5 @@ _site
 node_modules
 .DS_STORE
 _includes/chatgptProjects.html
+_includes/projectsOriginal.html
 src/styles/_projects_original.scss
