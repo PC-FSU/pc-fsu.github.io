@@ -32,17 +32,17 @@
   }
 }
 
-.contents-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    width: 4%;
-    margin: 0;
-    top: 50%;
-    max-height: 5px;
-    overflow-y: auto;
-    padding-right: 15px;
-  }
-}
+// .contents-right {
+//   @media only screen and (min-width: $cut) {
+//     float: right;
+//     width: 4%;
+//     margin: 0;
+//     top: 50%;
+//     max-height: 5px;
+//     overflow-y: auto;
+//     padding-right: 15px;
+//   }
+// }
 
 .contents-left {
   @media only screen and (min-width: $cut) {
