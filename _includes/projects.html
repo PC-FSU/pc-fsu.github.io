@@ -1,160 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
-  <style>
-    .user-projects {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
 
-    .scrollable-container {
-      max-height: 600px; /* Adjust height as needed */
-      overflow-y: auto;
-      width: 100%;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      background-color: #fff;
-    }
-
-    .project-section {
-      margin-bottom: 40px; /* Space between sections */
-      text-align: left;
-    }
-
-    .project-section img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin-bottom: 15px;
-    }
-
-    .project-section h3 {
-      margin-top: 0;
-    }
-
-    .project-section p {
-      margin: 10px 0;
-    }
-
-    .project-link {
-      display: inline-block;
-      margin: 10px 5px;
-      padding: 10px 15px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-
-    .project-link:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
-
-
-
-
-
-<body>
-  <div class="user-details">
-    <h1>Featured Projects</h1>
-  </div>
-
-  <div class="user-projects">
-    <div class="images-left">
-      <img alt="writing" src="{{ "/assets/img/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="contents-right">
-      <h3>Blog on towardsdatascience.com</h3>
-      <p>Medium's <i>Towards Data Science</i> is a great place to share wisdom. Here I will share my article on ML research/project practices.</p>
-      <p align="center"><a class="project-link" href="addLink">Check it out</a></p>
-    </div>
-  </div>
-
-  <div class="user-projects">
-    <div class="images-right">
-      <img alt="galaxy" src="{{ "/assets/img/PowerBI.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="contents-left">
-      <h3>Power BI dashboards</h3>
-      <p>Check out the data visualizations and analysis with PowerBI</p>
-      <p align="center"><a class="project-link" href="https://dhaitz.github.io/graph-visualization/#/galaxy/wikipedia?cx=-705&cy=-9206&cz=-9978&lx=0.4772&ly=0.7270&lz=-0.4743&lw=0.1367&ml=450&s=1.75&l=1&v=500_000_links">Check it out</a></p>
-    </div>
-  </div>
-
-  <div class="user-projects">
-    <!-- Scrollable container -->
-    <div class="scrollable-container">
-      <!-- Section 1 -->
-      <div class="project-section">
-        <h3>Public Data Visualizations</h3>
-        <img alt="particle-physics" src="{{ "/assets/img/s-bahn-hamburg.gif" | prepend: site.baseurl }}" />
-        <p>Occasionally, I create visualizations of public data, such as maps, traffic data, or election results. This includes interactive websites for town names or carsharing prices.</p>
-        <p>This section provides an overview of various public data visualizations that have been created.</p>
-        <p align="center">
-          <a class="project-link" href="https://example.com/visualization.pdf">View PDF</a>
-          <a class="project-link" href="https://example.com/interactive-example">Interactive Example</a>
-        </p>
-      </div>
-      
-      <!-- Section 2 -->
-      <div class="project-section">
-        <h3>Machine Learning Projects</h3>
-        <img alt="coding-project" src="{{ "/assets/img/coding-project.jpg" | prepend: site.baseurl }}" />
-        <p>I have worked on various machine learning projects, focusing on areas such as natural language processing and computer vision.</p>
-        <p>This section highlights some of the key machine learning projects I have undertaken.</p>
-        <p align="center">
-          <a class="project-link" href="https://example.com/ml-projects.pdf">View PDF</a>
-          <a class="project-link" href="https://example.com/ml-interactive-example">Interactive Example</a>
-        </p>
-      </div>
-
-      <!-- Section 3 -->
-      <div class="project-section">
-        <h3>Data Analysis Reports</h3>
-        <img alt="data-analysis" src="{{ "/assets/img/data-analysis.jpg" | prepend: site.baseurl }}" />
-        <p>Through my career, I have compiled numerous data analysis reports that provide deep insights into various datasets and trends.</p>
-        <p>This section contains some of the significant data analysis reports I have produced.</p>
-        <p align="center">
-          <a class="project-link" href="https://example.com/data-analysis.pdf">View PDF</a>
-          <a class="project-link" href="https://example.com/data-interactive-example">Interactive Example</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="user-details">
+<div class="user-details">
   <h1> Featured Projects </h1>
 </div>
 
@@ -226,11 +71,11 @@
     </p>
   </div>
 </div>
- -->
 
 
 
-<!-- <div class="user-projects">
+
+<div class="user-projects">
 
   <div class="images-right">
     <img alt="galaxy" src="{{ "/assets/img/galaxy.jpg" | prepend: site.baseurl }}" />
@@ -388,4 +233,4 @@
     </div>
   </div>
 
-</div> -->
+</div>
