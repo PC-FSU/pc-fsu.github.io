@@ -35,15 +35,11 @@
 .contents-right {
   @media only screen and (min-width: $cut) {
     float: right;
-    width: 4%;
+    width: 48%;
     margin: 0;
     top: 50%;
-    max-height: 5px;
-    overflow-y: auto;
-    padding-right: 15px;
   }
 }
-
 .contents-left {
   @media only screen and (min-width: $cut) {
     float: left;
@@ -76,19 +72,6 @@
     @media only screen and (min-width: $cut) {
       float: left;
     }
-  }
-}
-
-
-.scroll-container {
-  width: 48%;
-  max-height: 300px; /* Adjust as needed */
-  overflow-y: auto;
-  margin-top: 10px; /* Space between the content and scroll container */
-  border: 1px solid #ccc; /* Optional: Add a border for visibility */
-  padding: 10px; /* Optional: Add padding inside the container */
-  @media only screen and (min-width: $cut) {
-    align-self: flex-end; /* Aligns the scroll container to the right */
   }
 }
 
