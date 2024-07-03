@@ -7,51 +7,31 @@
   <style>
     .user-projects {
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      justify-content: flex-end; /* Aligns the container to the right */
+      width: 50%; /* Adjust the width of the container */
+      margin: 0 auto; /* Center the container horizontally */
     }
 
-    .scrollable-container {
-      max-height: 600px; /* Adjust height as needed */
-      overflow-y: auto;
-      width: 100%;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      background-color: #fff;
+    .user-projects .images-left, .user-projects .images-right {
+      width: 40%; /* Adjust the width of the image containers */
     }
 
-    .project-section {
-      margin-bottom: 40px; /* Space between sections */
-      text-align: left;
+    .user-projects .contents-left, .user-projects .contents-right {
+      width: 60%; /* Adjust the width of the content containers */
     }
 
-    .project-section img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin-bottom: 15px;
+    .user-projects img {
+      max-width: 100%; /* Ensure the images are responsive */
+      height: auto; /* Maintain aspect ratio */
     }
 
-    .project-section h3 {
-      margin-top: 0;
-    }
-
-    .project-section p {
-      margin: 10px 0;
-    }
-
-    .project-link {
-      display: inline-block;
-      margin: 10px 5px;
-      padding: 10px 15px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-
-    .project-link:hover {
-      background-color: #0056b3;
+    .scroll-container {
+      overflow-y: auto; /* Enable vertical scrolling */
+      max-height: 300px; /* Adjust the max height as needed */
+      width: 100%; /* Occupy the full width of the parent container */
+      margin-top: 20px; /* Space between Power BI section and scroll container */
+      border: 1px solid #ccc; /* Optional: Add a border for visibility */
+      padding: 10px; /* Optional: Add padding inside the container */
     }
   </style>
 </head>
