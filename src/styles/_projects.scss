@@ -38,8 +38,11 @@
     width: 48%;
     margin: 0;
     top: 50%;
+    max-height: 300px;
+    overflow-y: auto;
   }
 }
+
 .contents-left {
   @media only screen and (min-width: $cut) {
     float: left;
